@@ -1,0 +1,26 @@
+{
+  "name": "use-deeebounce",
+  "version": "1.0.5",
+  "description": "add debouncing to your projects search",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": ""
+  },
+  "keywords": [
+    "react",
+    "debounce",
+    "react-hook"
+  ],
+  "author": "Jay Kalia",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3"
+  }
+}
