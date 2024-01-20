@@ -1,17 +1,13 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist",
-    "target": "es5",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "lib": ["es2015", "dom"],
-    "types": ["node"],
-    "baseUrl": "./", 
-    "paths": {
-      "*": ["src/*", "types/*"]
-    }
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+      "outDir": "./dist",
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "lib": ["es2015", "dom"],
+      "types": ["node"],
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
 }
