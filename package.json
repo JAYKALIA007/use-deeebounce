@@ -6,6 +6,15 @@
     "type": "git",
     "url": "https://github.com/JAYKALIA007/use-deeebounce"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "module": "./dist/index.module.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
