@@ -2,6 +2,10 @@
   "name": "use-deeebounce",
   "version": "1.0.5",
   "description": "add debouncing to your projects search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JAYKALIA007/use-deeebounce"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
